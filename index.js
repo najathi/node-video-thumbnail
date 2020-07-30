@@ -20,6 +20,6 @@ var proc = ffmpeg(sourcePath)
     })
     // take 2 screenshots at predefined timemarks and size
     .takeScreenshots(
-        { count: 2, timemarks: ["00:00:02.000", "6"], size: "350x300" },
+        { count: 2, timemarks: ["00:00:02.000", "6"], size: "320x240" },
         "./output"
     );
